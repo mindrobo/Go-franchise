@@ -1,0 +1,5 @@
+[16-Jan-2022 10:21:02 UTC] wp_auto_login: trying to login user_id==1 loginusername=alinoorpro@gmail.com to admin_url=https://mrweb138.website/wp-admin/
+[16-Jan-2022 11:55:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/mrweb138.website/public_html/wp-content/plugins/use-any-font/includes/functions/uaf_font_functions.php on line 469
+[16-Jan-2022 11:55:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/mrweb138.website/public_html/wp-content/plugins/use-any-font/includes/functions/uaf_font_functions.php on line 469
+[16-Jan-2022 11:55:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/mrweb138.website/public_html/wp-content/plugins/use-any-font/includes/functions/uaf_font_functions.php on line 469
+[16-Jan-2022 11:56:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/mrweb138.website/public_html/wp-content/plugins/use-any-font/includes/functions/uaf_font_functions.php on line 469

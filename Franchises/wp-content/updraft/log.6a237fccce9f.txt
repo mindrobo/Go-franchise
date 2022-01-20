@@ -1,0 +1,280 @@
+0000.000 (0) Opened log file at time: Wed, 12 Jan 2022 15:19:40 +0000 on http://fiverrdoctor.com
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.69 WP: 5.8.3 PHP: 8.0.7 (litespeed, Linux mdalinoor.com 3.10.0 #1 SMP Fri Nov 20 21:47:55 MSK 2020 x86_64) MySQL: 10.5.10-MariaDB (max packet size=16777216) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 16.4M | 18M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 8266 MB
+0000.017 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.018 (0) Semaphore (fd, wp_options) being initialised
+0000.022 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.027 (0) Set semaphore last lock (fd) time to 2022-01-12 15:19:40
+0000.028 (0) Semaphore lock (fd) complete
+0000.030 (0) Backup run: resumption=0, nonce=6a237fccce9f, file_nonce=6a237fccce9f begun at=1642000780 (0s ago), job type=backup
+0000.031 (0) Scheduling a resumption (1) after 300 seconds (1642001080) in case this run gets aborted
+0000.040 (0) OpenVZ; reported memory: 1024 MB
+0000.041 (0) Checking if we have a zip executable available
+0000.042 (0) Testing: /usr/bin/zip
+0000.047 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.048 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.049 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.050 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.050 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.055 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.056 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.062 (0) Working binary zip found: /usr/bin/zip
+0000.063 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.063 (0) Creation of backups of directories: beginning
+0000.065 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.157 (0) Total entities for the zip file: 547 directories, 2856 files (0 skipped as non-modified), 37.8 MB
+0000.159 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.161 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.164 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.166 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.168 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.169 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.171 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.173 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.176 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.178 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.178 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.8 MB, 2856 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.117 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: size is now: 5.10 MB
+0001.135 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 1100 files added (on-disk size: 5197.3 KB)
+0001.137 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 1200 files added (on-disk size: 5197.3 KB)
+0001.138 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 1300 files added (on-disk size: 5197.3 KB)
+0001.140 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 1400 files added (on-disk size: 5197.3 KB)
+0001.141 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 1500 files added (on-disk size: 5197.3 KB)
+0001.143 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 1600 files added (on-disk size: 5197.3 KB)
+0001.145 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 1700 files added (on-disk size: 5197.3 KB)
+0001.146 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 1800 files added (on-disk size: 5197.3 KB)
+0001.148 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 1900 files added (on-disk size: 5197.3 KB)
+0001.149 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 2000 files added (on-disk size: 5197.3 KB)
+0001.150 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.2 MB, 2856 files batched, 1001 (2002) added so far); re-opening (prior size: 5197.3 KB)
+0001.761 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: size is now: 9.20 MB
+0001.780 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 2100 files added (on-disk size: 9426.8 KB)
+0001.782 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 2200 files added (on-disk size: 9426.8 KB)
+0001.783 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 2300 files added (on-disk size: 9426.8 KB)
+0001.785 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 2400 files added (on-disk size: 9426.8 KB)
+0001.787 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 2500 files added (on-disk size: 9426.8 KB)
+0001.788 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 2600 files added (on-disk size: 9426.8 KB)
+0001.790 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 2700 files added (on-disk size: 9426.8 KB)
+0001.792 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: 2800 files added (on-disk size: 9426.8 KB)
+0002.250 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.tmp: size is now: 11.80 MB
+0002.279 (0) Creating zip file manifest (/home/fiverrdoctor.com/public_html/wp-content/updraft/backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.list-temp.tmp)
+0002.287 (0) Successfully created zip file manifest (size: 248800)
+0002.420 (0) Created plugins zip (0) - 12086.9 KB in 2.4 s (5134.8 KB/s) (sha1: 70006df3384a109074b538e8ef8dfeab1770908c, sha256: d29b081de24b08d8fa95284ee056a2727ebadcd20dcf62dbb7d8c86fffb57792)
+0002.421 (0) Beginning creation of dump of themes (split every: 400 MB)
+0002.463 (0) Total entities for the zip file: 181 directories, 1314 files (0 skipped as non-modified), 42.4 MB
+0002.465 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.467 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.468 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.470 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.471 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.473 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 1314 files batched, 584 (584) added so far); re-opening (prior size: 0 KB)
+0004.001 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: size is now: 7.60 MB
+0004.013 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.2 s, rate: 11695 KB/s)
+0004.014 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.1921799182892, normalised_time=2.1889678277805, max_time=4.0136849880219, data points known=1, old_max_bytes=26214400, new_max_bytes=71854139)
+0004.016 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: 600 files added (on-disk size: 7833.4 KB)
+0004.017 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: 700 files added (on-disk size: 7833.4 KB)
+0004.019 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: 800 files added (on-disk size: 7833.4 KB)
+0004.021 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: 900 files added (on-disk size: 7833.4 KB)
+0004.023 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: 1000 files added (on-disk size: 7833.4 KB)
+0004.024 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: 1100 files added (on-disk size: 7833.4 KB)
+0004.026 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: 1200 files added (on-disk size: 7833.4 KB)
+0004.027 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: 1300 files added (on-disk size: 7833.4 KB)
+0004.797 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.tmp: size is now: 11.80 MB
+0004.826 (0) Creating zip file manifest (/home/fiverrdoctor.com/public_html/wp-content/updraft/backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.list-temp.tmp)
+0004.830 (0) Successfully created zip file manifest (size: 103938)
+0005.173 (0) Created themes zip (0) - 12109.4 KB in 2.8 s (4401.9 KB/s) (sha1: 9857995f372e6a78e981c3da07c21b9d1d9f2255, sha256: f6fa1d0f960549cad71d58881d6eeb8b5125113bc55be88d5b525a765fb36a4e)
+0005.175 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0005.176 (0) Looking for candidates to backup in: /home/fiverrdoctor.com/public_html/wp-content/uploads
+0005.176 (0) finding files: et_temp: adding to list (1)
+0005.177 (0) finding files: 2022: adding to list (2)
+0005.177 (0) finding files: et-fonts: adding to list (3)
+0005.178 (0) finding files: rank-math: adding to list (4)
+0005.178 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0005.183 (0) Total entities for the zip file: 5 directories, 242 files (0 skipped as non-modified), 5.8 MB
+0005.186 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.189 (0) Zip: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.359 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-uploads.zip.tmp: size is now: 5.60 MB
+0005.365 (0) Creating zip file manifest (/home/fiverrdoctor.com/public_html/wp-content/updraft/backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-uploads.zip.list-temp.tmp)
+0005.367 (0) Successfully created zip file manifest (size: 14477)
+0005.435 (0) Created uploads zip (0) - 5693.2 KB in 0.3 s (22222.9 KB/s) (sha1: 09102d5351b5fedf7413a215083fac9e3f28c9c5, sha256: 4bf16ba72d4231a2b7d492687516474af83b4118cbeb0127aecd712be7a9dad9)
+0005.437 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.438 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.439 (0) Looking for candidates to backup in: /home/fiverrdoctor.com/public_html/wp-content
+0005.440 (0) finding files: uploads: skipping: this is the uploads directory
+0005.440 (0) finding files: themes: skipping: this is the themes directory
+0005.441 (0) finding files: upgrade: skipping: excluded by options
+0005.441 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0005.442 (0) finding files: index.php: adding to list (1)
+0005.442 (0) finding files: plugins: skipping: this is the plugins directory
+0005.443 (0) finding files: updraft: skipping: this is the updraft directory
+0005.443 (0) finding files: .litespeed_conf.dat: adding to list (2)
+0005.444 (0) finding files: litespeed: adding to list (3)
+0005.444 (0) finding files: et-cache: adding to list (4)
+0005.447 (0) Total entities for the zip file: 4 directories, 10 files (0 skipped as non-modified), 0 MB
+0005.457 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-others.zip.tmp: size is now: 0.10 MB
+0005.472 (0) Creating zip file manifest (/home/fiverrdoctor.com/public_html/wp-content/updraft/backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-others.zip.list-temp.tmp)
+0005.473 (0) Successfully created zip file manifest (size: 576)
+0005.476 (0) Created others zip (0) - 52.7 KB in 0 s (1738.1 KB/s) (sha1: f320229f8447d96e9d86dc3e2ecebe7ff19e9284, sha256: dfc6ee484b741ca56f8530c77b4588616a2ab33e02ddd4734a14cb887f603890)
+0005.478 (0) Saving backup status to database (elements: 8)
+0005.480 (0) Beginning creation of database dump (WordPress DB)
+0005.481 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0005.483 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0005.528 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1524 bytes total)
+0005.529 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0005.535 (0) Table wp_options: Total expected rows (via COUNT): 501
+0005.549 (0) Table wp_options: Rows added in this batch (next record: 4482): 497 (uncompressed bytes in this segment=161685) in 0.02 seconds
+0005.553 (0) Table wp_options: finishing file(s) (2, 28.3 KB)
+0005.556 (0) Table wp_users: Total expected rows (via COUNT): 1
+0005.559 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.560 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1354) in 0.01 seconds
+0005.563 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0005.566 (0) Table wp_usermeta: Total expected rows (via COUNT): 33
+0005.566 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.568 (0) Table wp_usermeta: Rows added in this batch (next record: 33): 33 (uncompressed bytes in this segment=3439) in 0.00 seconds
+0005.571 (0) Table wp_usermeta: finishing file(s) (2, 1.4 KB)
+0005.574 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 2
+0005.574 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.580 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 7): 2 (uncompressed bytes in this segment=2215) in 0.01 seconds
+0005.586 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.7 KB)
+0005.590 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0005.592 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.00 seconds
+0005.595 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0005.599 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 1
+0005.600 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.603 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=681) in 0.00 seconds
+0005.605 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0005.609 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 6
+0005.612 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.613 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1326) in 0.01 seconds
+0005.617 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0005.621 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0005.623 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+0005.627 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0005.630 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0005.631 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.633 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2093) in 0.00 seconds
+0005.635 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0005.638 (0) Table wp_links: Total expected rows (via COUNT): 0
+0005.640 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0005.643 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0005.648 (0) Table wp_postmeta: Total expected rows (via COUNT): 723
+0005.649 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.655 (0) Table wp_postmeta: Rows added in this batch (next record: 1683): 723 (uncompressed bytes in this segment=93095) in 0.01 seconds
+0005.658 (0) Table wp_postmeta: finishing file(s) (2, 11.4 KB)
+0005.663 (0) Table wp_posts: Total expected rows (via COUNT): 286
+0005.664 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.792 (0) Table wp_posts: Rows added in this batch (next record: 224802): 286 (uncompressed bytes in this segment=4978670) in 0.13 seconds
+0005.795 (0) Table wp_posts: finishing file(s) (2, 498.9 KB)
+0005.798 (0) Table wp_term_relationships: Total expected rows (approximate): 56
+0005.799 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 56 (uncompressed bytes in this segment=1605) in 0.00 seconds
+0005.801 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0005.804 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 8
+0005.805 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.807 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1137) in 0.00 seconds
+0005.814 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0005.833 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0005.835 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.00 seconds
+0005.838 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0005.840 (0) Table wp_terms: Total expected rows (via COUNT): 8
+0005.841 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.843 (0) Table wp_terms: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=957) in 0.00 seconds
+0005.845 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0005.847 (0) Table wp_litespeed_avatar: Total expected rows (via COUNT): 7
+0005.854 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.855 (0) Table wp_litespeed_avatar: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1675) in 0.01 seconds
+0005.858 (0) Table wp_litespeed_avatar: finishing file(s) (2, 0.7 KB)
+0005.861 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 10
+0005.861 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.862 (0) Table wp_litespeed_url: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1151) in 0.00 seconds
+0005.864 (0) Table wp_litespeed_url: finishing file(s) (2, 0.5 KB)
+0005.867 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0005.868 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=982) in 0.00 seconds
+0005.876 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0005.878 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 20
+0005.879 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.881 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: 2622): 20 (uncompressed bytes in this segment=2330) in 0.00 seconds
+0005.886 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 0.7 KB)
+0005.889 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 11
+0005.890 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0005.892 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 224602): 11 (uncompressed bytes in this segment=893) in 0.00 seconds
+0005.896 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.4 KB)
+0005.897 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/fiverrdoctor.com/public_html/wp-content/updraft/backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db.gz (line 1836, wp-content/plugins/updraftplus/backup.php)
+0005.898 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_options.table.tmpr4483.gz (1/21/fopen): adding to final database dump
+0005.899 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_options.table.gz (2/21/fopen): adding to final database dump
+0005.900 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_users.table.tmpr2.gz (3/21/fopen): adding to final database dump
+0005.900 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_users.table.gz (4/21/fopen): adding to final database dump
+0005.901 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_usermeta.table.tmpr34.gz (5/21/fopen): adding to final database dump
+0005.902 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_usermeta.table.gz (6/21/fopen): adding to final database dump
+0005.902 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_actionscheduler_actions.table.tmpr8.gz (7/21/fopen): adding to final database dump
+0005.903 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_actionscheduler_actions.table.gz (8/21/fopen): adding to final database dump
+0005.903 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/21/fopen): adding to final database dump
+0005.904 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_actionscheduler_claims.table.gz (10/21/fopen): adding to final database dump
+0005.904 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_actionscheduler_groups.table.tmpr2.gz (11/21/fopen): adding to final database dump
+0005.905 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_actionscheduler_groups.table.gz (12/21/fopen): adding to final database dump
+0005.906 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_actionscheduler_logs.table.tmpr7.gz (13/21/fopen): adding to final database dump
+0005.906 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_actionscheduler_logs.table.gz (14/21/fopen): adding to final database dump
+0005.907 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_commentmeta.table.tmpr0.gz (15/21/fopen): adding to final database dump
+0005.907 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_commentmeta.table.gz (16/21/fopen): adding to final database dump
+0005.908 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_comments.table.tmpr2.gz (17/21/fopen): adding to final database dump
+0005.909 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_comments.table.gz (18/21/fopen): adding to final database dump
+0005.909 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_links.table.tmpr0.gz (19/21/fopen): adding to final database dump
+0005.910 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_links.table.gz (20/21/fopen): adding to final database dump
+0005.911 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_postmeta.table.tmpr1684.gz (21/21/fopen): adding to final database dump
+0005.911 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_postmeta.table.gz (22/21/fopen): adding to final database dump
+0005.912 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_posts.table.tmpr224803.gz (23/21/fopen): adding to final database dump
+0005.918 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_posts.table.gz (24/21/fopen): adding to final database dump
+0005.919 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_term_relationships.table.tmpr100001.gz (25/21/fopen): adding to final database dump
+0005.920 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_term_relationships.table.gz (26/21/fopen): adding to final database dump
+0005.920 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_term_taxonomy.table.tmpr9.gz (27/21/fopen): adding to final database dump
+0005.921 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_term_taxonomy.table.gz (28/21/fopen): adding to final database dump
+0005.922 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_termmeta.table.tmpr0.gz (29/21/fopen): adding to final database dump
+0005.922 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_termmeta.table.gz (30/21/fopen): adding to final database dump
+0005.923 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_terms.table.tmpr9.gz (31/21/fopen): adding to final database dump
+0005.923 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_terms.table.gz (32/21/fopen): adding to final database dump
+0005.924 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_litespeed_avatar.table.tmpr8.gz (33/21/fopen): adding to final database dump
+0005.924 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_litespeed_avatar.table.gz (34/21/fopen): adding to final database dump
+0005.925 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_litespeed_url.table.tmpr11.gz (35/21/fopen): adding to final database dump
+0005.925 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_litespeed_url.table.gz (36/21/fopen): adding to final database dump
+0005.926 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_litespeed_url_file.table.tmpr0.gz (37/21/fopen): adding to final database dump
+0005.927 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_litespeed_url_file.table.gz (38/21/fopen): adding to final database dump
+0005.927 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_rank_math_internal_links.table.tmpr2623.gz (39/21/fopen): adding to final database dump
+0005.928 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_rank_math_internal_links.table.gz (40/21/fopen): adding to final database dump
+0005.928 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_rank_math_internal_meta.table.tmpr224603.gz (41/21/fopen): adding to final database dump
+0005.929 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db-table-wp_rank_math_internal_meta.table.gz (42/21/fopen): adding to final database dump
+0005.932 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db.gz: finished writing out complete database file (549.2 KB)
+0005.941 (0) Total database tables backed up: 21 (backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db.gz, size: 562499, sha1: 7fd0e1afda1bfab0eb010c9aa39f0986b70902e3, sha256: 1f5248cc4e693fc997501ccaea6e8811848895f46ad97999ba39d864ddbbe5fe)
+0005.944 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0005.945 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0005.946 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0005.946 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-others.zip: others: This file has not yet been successfully uploaded: will queue
+0005.947 (0) backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.947 (0) Saving backup history. Total backup size: 29.8 MB
+0005.949 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0005.951 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0005.952 (0) No remote despatch: user chose no remote backup service
+0005.952 (0) Recording as successfully uploaded: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip
+0005.954 (0) Deleting zip manifest (backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-plugins.zip.list.tmp)
+0005.954 (0) Recording as successfully uploaded: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip
+0005.955 (0) Deleting zip manifest (backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-themes.zip.list.tmp)
+0005.956 (0) Recording as successfully uploaded: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-uploads.zip
+0005.957 (0) Deleting zip manifest (backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-uploads.zip.list.tmp)
+0005.958 (0) Recording as successfully uploaded: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-others.zip
+0005.959 (0) Deleting zip manifest (backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-others.zip.list.tmp)
+0005.960 (0) Recording as successfully uploaded: backup_2022-01-12-1519_Go_Franchise_6a237fccce9f-db.gz
+0005.962 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0005.963 (0) Number of backup sets in history: 1; groups (db): 1
+0005.963 (0) Examining (for databases) backup set with group_id=0, nonce=6a237fccce9f, datestamp=1642000780 (Jan 12 2022 15:19:40)
+0005.964 (0) This backup set is the backup set just made, so will not be deleted.
+0005.964 (0) Number of backup sets in history: 1; groups (files): 1
+0005.964 (0) Examining (for files) backup set with nonce=6a237fccce9f, datestamp=1642000780 (Jan 12 2022 15:19:40)
+0005.964 (0) This backup set is the backup set just made, so will not be deleted.
+0005.965 (0) This backup set is the backup set just made, so will not be deleted.
+0005.965 (0) This backup set is the backup set just made, so will not be deleted.
+0005.965 (0) This backup set is the backup set just made, so will not be deleted.
+0005.965 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0005.966 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0005.967 (0) Resume backup (6a237fccce9f, 0): finish run
+0005.969 (0) Decremented the semaphore (fd) by 1
+0005.969 (0) Semaphore (fd) unlocked
+0005.970 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0005.972 (0) No email will/can be sent - the user has not configured an email address.
+0005.973 (0) The backup apparently succeeded and is now complete
